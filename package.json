@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-async-none-by-right",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test whether all elements in a collection fail a test implemented by a predicate function, iterating from right to left.",
   "license": "Apache-2.0",
   "author": {
