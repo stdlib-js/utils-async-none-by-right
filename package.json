@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/utils-async-none-by-right",
+  "version": "0.0.0",
+  "description": "Test whether all elements in a collection fail a test implemented by a predicate function, iterating from right to left.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-async-none-by-right.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "async",
+    "asynchronous",
+    "test",
+    "predicate",
+    "none",
+    "all",
+    "every",
+    "noneright",
+    "right",
+    "array.every",
+    "iterate",
+    "collection",
+    "array-like",
+    "validate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
