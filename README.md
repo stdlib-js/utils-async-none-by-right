@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@deno/mod.js';
+import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@v0.1.0-deno/mod.js';
 ```
 
 #### noneByRightAsync( collection, \[options,] predicate, done )
@@ -349,7 +349,7 @@ The function accepts the same `options` as `noneByRightAsync()`.
 ```javascript
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@deno/mod.js';
-import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@deno/mod.js';
+import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@v0.1.0-deno/mod.js';
 
 var files = [
     resolve( __dirname, 'package.json' ),
