@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-async-none-by-right/tags). For example,
+
+```javascript
 import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@v0.2.0-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@deno/mod.js';
 ```
 
 #### noneByRightAsync( collection, \[options,] predicate, done )
@@ -349,7 +354,7 @@ The function accepts the same `options` as `noneByRightAsync()`.
 ```javascript
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@deno/mod.js';
-import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@v0.2.0-deno/mod.js';
+import noneByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-none-by-right@deno/mod.js';
 
 var files = [
     resolve( __dirname, 'package.json' ),
